@@ -4,30 +4,38 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #ffffff;
-  background-color: #000000;
+  color: #000000;
+  background-color: #ffffff;
 }
 .navbar {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
   border-bottom: 1px solid #000000;
+  justify-content: space-between;
+  background-color: #ffffff;
 }
 .navbar h1 {
   color: #ffffff;
 }
 .navbar .links {
-  margin-left: auto;
+
 }
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  font-size: 18px;
 }
 .navbar a:hover {
   color: #7b7b7b;
+}
+.navbar .pojok{
+  height: 70px;
+  padding-bottom: 2px;
+}
+.navbar .pojok img{
+  height: 100%;
 }
 .content {
   max-width: 600px;
